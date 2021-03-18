@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lib App</string>
+    <string name="btnQuestoes">QUESTÕES</string>
+    <string name="btnVocabulario">VOCABULÁRIO</string>
+    <string name="btnConfiguracoes">CONFIGURAÇÕES</string>
+    <string name="btnInformacoes">INFORMAÇÕES</string>
+    <string name="btnContato">CONTATO</string>
+    <string name="btnVoltaMenu">VOLTAR AO MENU</string>
+    <string name="btnVoltaConfig">VOLTAR AS CONFIGURAÇÕES</string>
+    <string name="btnPronome">PRONOMES INTERROGATIVOS</string>
+    <string name="btbTempo">TEMPO</string>
+    <string name="btnTransporte">MEIOS DE TRANSPORTE</string>
+    <string name="btnVoltaTemas">VOLTAR AOS TEMAS</string>
+    <string name="btnAlfabeto">ALFABETO</string>
+    <string name="btnNumeros">NÚMEROS</string>
+    <string name="btnIniciar">INICIAR</string>
+    <string name="btnProximo">PRÓXIMA QUESTÃO</string>
+    <string name="btnVoltar">VOLTAR</string>
+    <string name="btnFinalizar">FINALIZAR</string>
+    <string name="btnTentarNovamente">TENTAR NOVAMENTE</string>
+    <string name="btnmessagem_campos_invalidos_brancos">Ha campos inválidos ou em branco!</string>
+    <string name="message_conexao_criada_com_sucesso">Conexão criada com sucesso!</string>
+    <string name="lbl_ok">OK</string>
+    <string name="action_ok">OK</string>
+    <string name="title_erro">Erro</string>
+    <string name="txtPontuação">Pontuação : 0</string>
+</resources>

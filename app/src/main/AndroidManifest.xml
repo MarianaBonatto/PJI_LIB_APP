@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.libapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TempoFinal"></activity>
+        <activity android:name=".PronomeFinal" />
+        <activity android:name=".PronomeQ1" />
+        <activity android:name=".TempoRes" />
+        <activity android:name=".TempoQ1" />
+        <activity android:name=".TransporteFinal" />
+        <activity android:name=".PronomeRes" />
+        <activity android:name=".TempoVoc" />
+        <activity android:name=".TemaVoc3" />
+        <activity android:name=".TempoVoc2" />
+        <activity android:name=".AlfabetoVoc" />
+        <activity android:name=".TransporteRes" />
+        <activity android:name=".TransporteQ1" />
+        <activity android:name=".TransporteQuest" />
+        <activity android:name=".TempoQuest" />
+        <activity android:name=".PronomeQuest" />
+        <activity android:name=".TransporteVoc" />
+        <activity android:name=".PronomeVoc" />
+        <activity android:name=".NumeroVoc" />
+        <activity android:name=".ContatoConfig" />
+        <activity android:name=".InfoConfig" />
+        <activity android:name=".Config" />
+        <activity android:name=".TemaVoc" />
+        <activity android:name=".TemaQuestao" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

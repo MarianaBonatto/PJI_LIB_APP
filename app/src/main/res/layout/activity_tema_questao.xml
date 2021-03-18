@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TemaQuestao">
+
+    <Button
+        android:id="@+id/btnQuestoes2"
+        android:layout_width="383dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@color/Laranja"
+        android:text="@string/btnQuestoes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPronome"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="64dp"
+        android:background="@color/Azul"
+        android:text="@string/btnPronome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnQuestoes2" />
+
+    <Button
+        android:id="@+id/btnTempo"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:background="@color/LaranjaAvermelhado"
+        android:text="@string/btbTempo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPronome" />
+
+    <Button
+        android:id="@+id/btnTransporte"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:background="@color/MarromClaro"
+        android:text="@string/btnTransporte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTempo" />
+
+    <Button
+        android:id="@+id/btnVoltMenu"
+        android:layout_width="383dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/Laranja"
+        android:text="@string/btnVoltaMenu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/fotoMariCaraDuv"
+        android:layout_width="119dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:src="@drawable/marinacaraduvida"
+        app:layout_constraintBottom_toTopOf="@+id/btnVoltMenu"
+        app:layout_constraintEnd_toStartOf="@+id/fotoMarihCaraDuv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTransporte"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <ImageView
+        android:id="@+id/fotoMarihCaraDuv"
+        android:layout_width="132dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:src="@drawable/marianacaraduvida"
+        app:layout_constraintBottom_toTopOf="@+id/btnVoltMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fotoMariCaraDuv"
+        app:layout_constraintTop_toBottomOf="@+id/btnTransporte"
+        app:layout_constraintVertical_bias="0.51" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

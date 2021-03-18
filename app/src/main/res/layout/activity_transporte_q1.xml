@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransporteQ1">
+
+    <Button
+        android:id="@+id/btnTransporte5"
+        android:layout_width="383dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/MarromClaro"
+        android:text="@string/btnTransporte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtE3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginRight="158dp"
+        android:text="Assinale a alternativa que melhor corresponde a questão dada:"
+        android:textColor="@color/Preto"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <RadioGroup
+        android:id="@+id/radio3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/rbutton31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ontem eu ir de bicicleta trabalhar" />
+
+        <RadioButton
+            android:id="@+id/rbutton32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ele ir de bicicleta para a escola" />
+
+        <RadioButton
+            android:id="@+id/rbutton33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ontem ele ir de moto para a escola" />
+
+        <RadioButton
+            android:id="@+id/rbutton34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ontem ele ir de moto para o trabalho" />
+
+        <RadioButton
+            android:id="@+id/rbutton35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hoje nós fomos de bicicleta para o trabalho " />
+
+    </RadioGroup>
+
+    <VideoView
+        android:id="@+id/videot"
+        android:layout_width="339dp"
+        android:layout_height="398dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+
+    <ImageView
+        android:id="@+id/marihduv"
+        android:layout_width="98dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="299dp"
+        android:layout_marginLeft="299dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/marianacaraduvida"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558" />
+
+    <Button
+        android:id="@+id/btnProx11"
+        android:layout_width="130dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:autoText="false"
+        android:background="@color/MarromClaro"
+        android:text="CONFIRMAR RESPOSTA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/btnvolt11"
+        android:layout_width="130dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginRight="220dp"
+        android:background="@color/MarromClaro"
+        android:text="VOLTAR AO INÍCIO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
